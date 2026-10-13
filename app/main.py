@@ -13,7 +13,7 @@ Base.metadata.create_all(bind=engine)
 
 @app.get("/")
 def home():
-    return {"message": "Welcome to GoTrusy Backend"}
+    return {"message": "Welcome to Amazon Backend"}
 
 
 app.include_router(
